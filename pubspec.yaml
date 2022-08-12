@@ -1,0 +1,27 @@
+name: valorant
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  cached_network_image: ^3.2.1
+  collection: ^1.16.0
+  flutter:
+    sdk: flutter
+  get_it: ^7.2.0
+  http: ^0.13.5
+  shared_preferences: ^2.0.15
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.3.0
+
+flutter:
+  uses-material-design: true
